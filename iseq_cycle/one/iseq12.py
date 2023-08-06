@@ -1,0 +1,10 @@
+a = map(int, input().split())
+s=sum(a)
+print(s, end=' ')
+avg=s//3
+print(avg, end=' ')
+if avg>=90:print("수")
+elif avg>=80: print("우")
+elif avg>=70: print('미')
+elif avg>=60:print('양')
+else: print('가')
